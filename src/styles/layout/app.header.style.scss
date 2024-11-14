@@ -1,0 +1,24 @@
+//settings
+@import "../settings/app.settings.style";
+@import "../settings/app.colors.style";
+
+.header {
+  background: $background-lighter;
+  position: relative;
+  border-top: 3px solid $border-primary;
+  box-shadow: $box-shadow-dark;
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: static;
+    height: 55px;
+    padding: 0 10px;
+
+    @media screen and (min-width: $screen-xl-min) {
+      position: relative;
+      height: auto;
+    }
+  }
+}

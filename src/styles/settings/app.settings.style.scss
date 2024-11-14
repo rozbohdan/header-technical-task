@@ -1,0 +1,88 @@
+//Main font
+$app-font:  sans-serif;
+
+// Breakpoints values
+$screen-xs:      0;
+$screen-tin:     375px;
+$screen-sm-min:  576px;
+$screen-sm-max:  ($screen-sm-min - 1px);
+$screen-md-min:  768px;
+$screen-md-max:  ($screen-md-min - 1px);
+$screen-lg-min:  992px;
+$screen-lg-max:  ($screen-lg-min - 1px);
+$screen-xl-min:  1200px;
+$screen-xl-max:  ($screen-xl-min - 1px);
+$screen-xxl-min: 1400px;
+$screen-xxl-max: ($screen-xxl-min - 1px);
+$screen-extra:   1600px;
+
+// Fonts sizes
+$font-size-6: 0.375rem;
+$font-size-8: 0.5rem;
+$font-size-9: 0.5625rem;
+$font-size-10: 0.625rem;
+$font-size-11: 0.6875rem;
+$font-size-12: 0.75rem;
+$font-size-13: 0.8125rem;
+$font-size-14: 0.875rem;
+$font-size-15: 0.9375rem;
+$font-size-16: 1rem;
+$font-size-17: 1.0625rem;
+$font-size-18: 1.125rem;
+$font-size-20: 1.25rem;
+$font-size-22: 1.375rem;
+$font-size-24: 1.5rem;
+$font-size-25: 1.5625rem;
+$font-size-26: 1.625rem;
+$font-size-28: 1.75rem;
+$font-size-30: 1.875rem;
+$font-size-32: 2rem;
+$font-size-36: 2.25rem;
+$font-size-40: 2.5rem;
+$font-size-42: 2.625rem;
+$font-size-46: 2.875rem;
+$font-size-48: 3rem;
+$font-size-52: 3.25rem;
+$font-size-60: 3.75rem;
+$font-size-72: 4.5rem;
+$font-size-80: 5rem;
+
+//desktop line height
+$line-height-80:     $font-size-80;
+$line-height-72:     $font-size-72;
+$line-height-60:     $font-size-60;
+$line-height-48:     $font-size-48;
+$line-height-42:     $font-size-42;
+$line-height-40:     $font-size-40;
+$line-height-36:     $font-size-36;
+$line-height-32:     $font-size-32;
+$line-height-30:     $font-size-30;
+$line-height-28:     $font-size-28;
+$line-height-26:     $font-size-26;
+$line-height-24:     $font-size-24;
+$line-height-22:     $font-size-22;
+$line-height-20:     $font-size-20;
+$line-height-18:     $font-size-18;
+$line-height-16:     $font-size-16;
+$line-height-14:     $font-size-14;
+$line-height-12:     $font-size-12;
+$line-height-10:     $font-size-10;
+$line-height-8:      $font-size-8;
+
+//border-radius
+$border-radius-full: 50%;
+$border-radius-sm:   4px;
+$border-radius-sm-extra:   3px;
+$border-radius-tiny: 1px;
+
+//font-weight
+$font-weight-semi-bold: 600;
+$font-weight-medium: 400;
+$font-weight-light:     300;
+
+//box-shadow
+$box-shadow-primary: 0 2px 7px rgba(31, 41, 108, 0.142833);
+
+//z-index
+$z-index-menu-list: 20;
+$z-index-search-box: 999;

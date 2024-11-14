@@ -1,0 +1,12 @@
+{
+  "name": "test",
+  "source": "src/templates/index.html",
+  "scripts": {
+    "start": "parcel src/templates/index.html"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.2.0",
+    "parcel": "^2.2.1",
+    "sass": "^1.48.0"
+  }
+}

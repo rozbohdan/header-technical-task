@@ -1,0 +1,51 @@
+//settings
+@import "../../settings/app.settings.style";
+@import "../../settings/app.colors.style";
+
+.search-box {
+  margin-top: 0;
+  padding: 0;
+  width: 100%;
+  margin-bottom: 0;
+  position: relative;
+
+  &__search {
+    &:after {
+      content: none;
+    }
+  }
+
+  &__label {
+    margin-bottom: 0;
+    display: flex;
+  }
+
+  &__input {
+    width: calc(100% - 35px);
+    height: 21px;
+    font-size: $font-size-14;
+    border: none;
+    color: $text-dark;
+    margin-bottom: 0;
+    text-indent: 0;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0;
+    outline: none;
+
+    &::placeholder {
+      color: $text-dark;
+    }
+  }
+
+  &__result {
+    cursor: pointer;
+    position: absolute;
+    right: initial;
+    width: 150%;
+    top: 55px;
+    left: 0;
+    z-index: $z-index-search-box;
+    text-align: left;
+  }
+}
